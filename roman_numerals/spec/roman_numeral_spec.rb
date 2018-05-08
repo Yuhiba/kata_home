@@ -21,4 +21,11 @@ RSpec.describe 'A function of conversion from Roman number to Arabic number' do
     result = roman_numeral(value)
     expect(result).to eq(value_expect)
   end
+
+  it 'Change X in 10' do
+    value = 'X'
+    value_expect = 10
+    result = roman_numeral(value)
+    expect(result).to eq(value_expect)
+  end
 end
