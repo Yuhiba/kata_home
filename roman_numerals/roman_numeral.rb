@@ -1,4 +1,5 @@
 def roman_numeral(value)
-  return 1 if value == "I"
-  return 5 if value == "V"
+  numeral_arab = { "I" => 1, "V" => 5}
+
+  numeral_arab[value]
 end
