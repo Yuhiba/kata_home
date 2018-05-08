@@ -1,9 +1,17 @@
-require '../roman_numeral'
+require_relative '../roman_numeral'
 
-describe "Roman Numeral" do
-  it "When have send 'I' returns '1'" do
-    sendValue = "I"
-    result = 1
-    expect(roman_numeral(sendValue)).to eq(result)
+RSpec.describe "A function of conversion from Roman number to Arabic number" do
+  it "Change I in 1" do
+    valeur = 'I'
+    valeur_expect = 1
+    result = roman_numeral(valeur)
+    expect(result).to eq(valeur_expect)
+  end
+
+  it "Change V in 5" do
+    valeur = 'V'
+    valeur_expect = 5
+    result = roman_numeral(valeur)
+    expect(result).to eq(valeur_expect)
   end
 end
