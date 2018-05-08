@@ -10,3 +10,6 @@ Le concept est simple pratiquer le TDD, avec le CleanCode comme base pour les bo
 - Partique pour écrire correctement des tests.
 
 Le Refactoring sera vu plus loin.
+
+
+Ref: http://codingdojo.org/
