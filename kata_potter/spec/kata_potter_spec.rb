@@ -7,4 +7,11 @@ RSpec.describe "A Magic Calculator function that calculates the discount on Harr
     result = magic_calculator(nb_books)
     expect(result).to eq value_expect
   end
+
+  it "Two different books cost 16 euros" do
+    nb_books = 2
+    value_expect = 16
+    result = magic_calculator(nb_books)
+    expect(result).to eq value_expect
+  end
 end
