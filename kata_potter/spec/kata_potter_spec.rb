@@ -43,14 +43,14 @@ RSpec.describe "A Magic Calculator function that calculates the discount on Harr
     end
   end
 
-  context "Discount Calculator for the same book" do
-    it "Two same books have a reduction of 5 %" do
-      nb_books = 2
-      tomes = [1, 1]
-      value_expected = 15.20
-      result = discount_calculator(tomes, nb_books)
-      expect(result).to eq value_expected
-    end
+  # context "Discount Calculator for the same book" do
+  #   it "Two same books have a reduction of 5 %" do
+  #     nb_books = 2
+  #     tomes = [1, 1]
+  #     value_expected = 15.20
+  #     result = discount_calculator(tomes, nb_books)
+  #     expect(result).to eq value_expected
+  #   end
 
     # it "Three same books have a reduction of 10 %" do
     #   nb_books = 3
